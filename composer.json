@@ -1,0 +1,20 @@
+{
+    "name": "bamarni/omnipay-ideal",
+    "description": "iDeal payment gateway for omnipay",
+    "type": "omnipay-gateway",
+    "keywords": ["omnipay", "payment", "gateway", "ideal", "provider"],
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Bilal Amarni",
+            "email": "bilal.amarni@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Bamarni\\Omnipay\\Ideal\\" : "src/" }
+    },
+    "require": {
+        "php": ">=5.4",
+        "omnipay/omnipay": "1.*"
+    }
+}

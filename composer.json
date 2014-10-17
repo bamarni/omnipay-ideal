@@ -1,6 +1,6 @@
 {
     "name": "bamarni/omnipay-ideal",
-    "description": "iDeal payment gateway for omnipay",
+    "description": "iDeal payment gateway for Omnipay",
     "type": "omnipay-gateway",
     "keywords": ["omnipay", "payment", "gateway", "ideal", "provider"],
     "license": "Unlicense",

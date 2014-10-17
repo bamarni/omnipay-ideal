@@ -34,4 +34,9 @@ class Gateway extends AbstractGateway
     {
         return $this->purchase($parameters);
     }
+
+    public function completeAuthorize(array $parameters = array())
+    {
+        return $this->createRequest('\Bamarni\Omnipay\Ideal\Message\CompleteAuthorizeRequest', $parameters);
+    }
 }

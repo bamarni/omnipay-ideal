@@ -27,7 +27,6 @@
         "guzzle/plugin-mock": "~3.1",
         "mockery/mockery": "~0.7",
         "silex/silex": "1.0.*@dev",
-        "squizlabs/php_codesniffer": "~1.4.4",
         "twig/twig": "~1.12"
     },
     "extra": {

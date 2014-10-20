@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx
+Date: Mon, 20 Oct 2014 08:00:04 GMT
+Content-Type: application/xml
+Content-Length: 175
+Connection: keep-alive
+Set-Cookie: SOFUEB=d96860d7c12f3020cc4794ab8dce9ee0; path=/payment; secure; HttpOnly
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Strict-Transport-Security: max-age=15552000; includeSubdomains
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<ideal><banks><bank><code>ABNANL2A</code><name>ABN Amro</name></bank><bank><code>INGBNL2A</code><name>ING</name></bank></banks></ideal>

@@ -11,6 +11,6 @@ class CompleteAuthorizeRequest extends AbstractRequest
 
     public function send()
     {
-        return $this->response = new CompleteAuthorizeResponse($this, $this->getData());
+        return $this->response = new CompleteAuthorizeResponse($this, $this->getTransactionId());
     }
 }

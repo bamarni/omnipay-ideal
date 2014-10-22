@@ -14,6 +14,6 @@ class CompleteAuthorizeResponse extends AbstractResponse
 
     public function getTransactionReference()
     {
-        return uniqid('ideal_');
+        return $this->data;
     }
 }

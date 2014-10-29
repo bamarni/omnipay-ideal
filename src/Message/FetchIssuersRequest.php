@@ -4,12 +4,7 @@ namespace Bamarni\Omnipay\Ideal\Message;
 
 class FetchIssuersRequest extends AbstractRequest
 {
-    public function getData()
-    {
-        return null;
-    }
-
-    public function send()
+    public function sendData($data)
     {
         $client = $this->httpClient;
 

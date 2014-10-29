@@ -4,12 +4,7 @@ namespace Bamarni\Omnipay\Ideal\Message;
 
 class CompleteAuthorizeRequest extends AbstractRequest
 {
-    public function getData()
-    {
-        return null;
-    }
-
-    public function send()
+    public function sendData($data)
     {
         return $this->response = new CompleteAuthorizeResponse($this, $this->getTransactionId());
     }

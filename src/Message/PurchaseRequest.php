@@ -36,7 +36,7 @@ class PurchaseRequest extends AbstractRequest
         return parent::getAmount();
     }
 
-    public function send()
+    public function sendData($data)
     {
         return $this->response = new PurchaseResponse($this, $this->getData());
     }

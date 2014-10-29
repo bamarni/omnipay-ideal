@@ -2,8 +2,8 @@
 
 namespace Bamarni\Omnipay\Ideal\Tests;
 
-use Omnipay\GatewayTestCase;
 use Bamarni\Omnipay\Ideal\Gateway;
+use Omnipay\Tests\GatewayTestCase;
 
 class GatewayTest extends GatewayTestCase
 {
